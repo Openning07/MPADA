@@ -9,17 +9,17 @@ larger weights to misclassified image patches.
 
 ## Experiments
 ### Requirements
-- python == 3.6
-- tensorflow == 1.2.1
-- tensorpack == 0.6
+* python == 3.6
+* tensorflow == 1.2.1
+* tensorpack == 0.6
 #### Notes
 
 
 ### Instructions for Results in the paper
     python AVA2012-resnet_20180808_Revised.py --gpu 2 --data $YOUR_DATA_DIR$/AVA2012 -aesthetic_level 2 --crop_method_TS RandomCrop --repeat_times 15 --load $YOUR_CHECKPOINT_DIR$/checkpoint --mode resnet -d 18 --eval 
 #### Notes
- - $YOUR_DATA_DIR$
- - $YOUR_CHECKPOINT_DIR$
+ - $YOUR_DATA_DIR$ : The directory you put *images* of the AVA benchmark.
+ - $YOUR_CHECKPOINT_DIR$ : The directory you save the *checkpoint* files of the models.
 ### Desired Outputs
 
 ## Citation
