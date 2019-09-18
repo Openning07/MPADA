@@ -2,22 +2,20 @@
 The implementation of $MP_{ada}$ in Attention-based Multi-patch Aggregation for Image Aesthetic Assessment [[pdf](http://chongyangma.com/publications/am/2018_am_paper.pdf)].
 
 ## Framework
-![System overview. We use an attention-based objective to enhance training signals by assigning relatively
-larger weights to misclassified image patches.
-](https://github.com/Openning07/MPADA/blob/master/SystemOverview.png)
+![SystemOverview](https://github.com/Openning07/MPADA/blob/master/SystemOverview.png "MPADA"){:height="50%" width="50%"}
 
 System overview. We use an attention-based objective to enhance training signals by assigning relatively
 larger weights to misclassified image patches.
 
-## Pre-Request
+## Experiments
 ### Requirements
 - python == 3.6
 - tensorflow == 1.2.1
 - tensorpack == 0.6
-### Notes
+#### Notes
 
 
-## Instructions for Results in the paper
+### Instructions for Results in the paper
     python AVA2012-resnet_20180808_Revised.py --gpu 2 --data $YOUR_DATA_DIR$/AVA2012 -aesthetic_level 2 --crop_method_TS RandomCrop --repeat_times 15 --load $YOUR_CHECKPOINT_DIR$/checkpoint --mode resnet -d 18 --eval 
 
 ## Citation
