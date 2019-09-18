@@ -17,6 +17,9 @@ larger weights to misclassified image patches.
 
 ### Instructions for Results in the paper
     python AVA2012-resnet_20180808_Revised.py --gpu 2 --data $YOUR_DATA_DIR$/AVA2012 -aesthetic_level 2 --crop_method_TS RandomCrop --repeat_times 15 --load $YOUR_CHECKPOINT_DIR$/checkpoint --mode resnet -d 18 --eval 
+#### Notes
+ - $YOUR_DATA_DIR$
+ - $YOUR_CHECKPOINT_DIR$
 
 ## Citation
 Please cite the following paper if you use this repository in your reseach.
