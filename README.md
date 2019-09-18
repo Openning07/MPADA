@@ -2,9 +2,7 @@
 The implementation of $MP_{ada}$ in Attention-based Multi-patch Aggregation for Image Aesthetic Assessment [[pdf](http://chongyangma.com/publications/am/2018_am_paper.pdf)].
 
 ## Framework
-<div  align="center">
-    ![SystemOverview](https://github.com/Openning07/MPADA/blob/master/SystemOverview.png "MPADA"){:height="50%" width="50%"}
-</div>
+![SystemOverview](https://github.com/Openning07/MPADA/blob/master/SystemOverview.png -w100 "MPADA")
 
 System overview. We use an attention-based objective to enhance training signals by assigning relatively
 larger weights to misclassified image patches.
