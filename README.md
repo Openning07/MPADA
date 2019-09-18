@@ -20,6 +20,7 @@ larger weights to misclassified image patches.
 #### Notes
  - $YOUR_DATA_DIR$
  - $YOUR_CHECKPOINT_DIR$
+### Desired Outputs
 
 ## Citation
 Please cite the following paper if you use this repository in your reseach.
