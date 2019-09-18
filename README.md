@@ -1,8 +1,8 @@
 # MPADA
-The implementation of MP_{ada} in Attention-based Multi-patch Aggregation for Image Aesthetic Assessment
+The implementation of $MP_{ada}$ in Attention-based Multi-patch Aggregation for Image Aesthetic Assessment[[pdf](http://chongyangma.com/publications/am/2018_am_paper.pdf)].
 
 ## Citation
-Please cite the following paper[[pdf](http://chongyangma.com/publications/am/2018_am_paper.pdf)] if you use this repository in your reseach.
+Please cite the following paper if you use this repository in your reseach.
 ```
 @inproceedings{sheng2018attention,
   title={Attention-based multi-patch aggregation for image aesthetic assessment},
