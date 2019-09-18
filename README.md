@@ -4,7 +4,7 @@ The implementation of $MP_{ada}$ in Attention-based Multi-patch Aggregation for 
 ## Framework
 ![System overview. We use an attention-based objective to enhance training signals by assigning relatively
 larger weights to misclassified image patches.
-](SystemOvervew.png)
+](https://github.com/Openning07/MPADA/blob/master/SystemOverview.png) "System Overview."
 
 ## Pre-Request
 
