@@ -13,6 +13,8 @@ larger weights to misclassified image patches.
 * tensorflow == 1.2.1
 * tensorpack == 0.6
 #### Notes
+* Tensorpack does not implement AVA2012. You need to put the **ava2012.py** in *AVA_info* in the folder of tensorpack.dataflow.dataset.
+* ...
 
 
 ### Instructions for Results in the paper
