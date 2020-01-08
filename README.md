@@ -19,10 +19,10 @@ larger weights to misclassified image patches.
 
 ### Instructions for Results in the paper
     python AVA2012-resnet_20180808_Revised.py --gpu 2 --data $YOUR_DATA_DIR$/AVA2012 --aesthetic_level 2 --crop_method_TS RandomCrop --repeat_times 15 --load $YOUR_CHECKPOINT_DIR$/checkpoint --mode resnet -d 18 --eval 
+### Desired Outputs
 #### Notes
  - $YOUR_DATA_DIR$ : The directory you put *images* of the AVA benchmark.
  - $YOUR_CHECKPOINT_DIR$ : The directory you save the *checkpoint* files of the models.
-### Desired Outputs
 
 ## Citation
 Please cite the following paper if you use this repository in your reseach.
