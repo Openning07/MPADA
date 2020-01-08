@@ -13,9 +13,8 @@ larger weights to misclassified image patches.
 * tensorflow == 1.2.1
 * tensorpack == 0.6
 #### Notes
-* Tensorpack does not implement AVA2012. You need to put the **ava2012.py** in *AVA_info* in the folder of tensorpack.dataflow.dataset.
-* ...
-
+ - Tensorpack does not implement AVA2012. You need to put the **ava2012.py** in *AVA_info* in the folder of tensorpack.dataflow.dataset.
+ - For the information of training and test split of AVA benchmark, please refer to **AVA_train.lst** and **AVA_test.lst** in *AVA_info*.
 
 ### Instructions for Results in the paper
     python AVA2012-resnet_20180808_Revised.py --gpu 2 --data $YOUR_DATA_DIR$/AVA2012 --aesthetic_level 2 --crop_method_TS RandomCrop --repeat_times 15 --load $YOUR_CHECKPOINT_DIR$/checkpoint --mode resnet -d 18 --eval 
@@ -23,6 +22,7 @@ larger weights to misclassified image patches.
 #### Notes
  - $YOUR_DATA_DIR$ : The directory you put *images* of the AVA benchmark.
  - $YOUR_CHECKPOINT_DIR$ : The directory you save the *checkpoint* files of the models.
+ - Result might not be reproduced due to several factors: different version of cv2, different CUDA version, different split of training/test.
 
 ## Citation
 Please cite the following paper if you use this repository in your reseach.
