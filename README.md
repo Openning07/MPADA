@@ -25,7 +25,7 @@ larger weights to misclassified image patches.
  - Result might not be reproduced due to several factors: different version of cv2, different CUDA version, different split of training/test.
 
 ## Citation
-Please cite the following paper if you use this repository in your reseach.
+Please cite the following paper if you use this repository in your reseach~ Thank you ^ . ^
 ```
 @inproceedings{sheng2018attention,
   title={Attention-based multi-patch aggregation for image aesthetic assessment},
