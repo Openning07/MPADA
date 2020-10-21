@@ -3,7 +3,7 @@ The implementation of $MP_{ada}$ in Attention-based Multi-patch Aggregation for 
 
 ## Framework
 <p align="center">
-  <img src="https://github.com/Openning07/MPADA/blob/master/FromPaper/SystemOverview.png" alt="CMM" width="70%">
+  <img src="https://github.com/Openning07/MPADA/blob/master/FromPaper/SystemOverview.png" alt="CMM" width="60%">
 </p>
 
 System overview. We use an attention-based objective to enhance training signals by assigning relatively
