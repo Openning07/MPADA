@@ -23,6 +23,8 @@ larger weights to misclassified image patches.
             --aesthetic_level 2 --crop_method_TS RandomCrop --repeat_times 15
             --load $YOUR_CHECKPOINT_DIR$/checkpoint --mode resnet -d 18 --eval 
 ### Desired Outputs
+    TODO
+
 #### Notes
  - $YOUR_DATA_DIR$ : The directory you put *images* of the AVA benchmark.
  - $YOUR_CHECKPOINT_DIR$ : The directory you save the *checkpoint* files of the models.
