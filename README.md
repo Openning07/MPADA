@@ -1,5 +1,5 @@
 # MPADA
-The implementation of $MP_{ada}$ in Attention-based Multi-patch Aggregation for Image Aesthetic Assessment [[pdf](http://chongyangma.com/publications/am/2018_am_paper.pdf)], the method for SOTA aesthetic visual assessment performance on AVA benchmark. For more comparisons on AVA, please refer to the [[page](https://paperswithcode.com/sota/aesthetics-quality-assessment-on-ava)] on PaperWithCode.
+The implementation of $MP_{ada}$ in Attention-based Multi-patch Aggregation for Image Aesthetic Assessment [pdf](http://chongyangma.com/publications/am/2018_am_paper.pdf), the method for SOTA aesthetic visual assessment performance on AVA benchmark. For more comparisons on AVA, please refer to the [page](https://paperswithcode.com/sota/aesthetics-quality-assessment-on-ava) on PaperWithCode.
 
 ## Framework
 <p align="center">
